@@ -6,7 +6,7 @@
 #include <cmath>
 
 using namespace std;
-// Q3 : https://leetcode.com/problems/minimum-time-visiting-all-points/
+// Q4 : https://leetcode.com/problems/minimum-time-visiting-all-points/
 class Q4 {
 public:
 	static int distance(pair<int, int>x, pair<int, int>y) {
