@@ -5,7 +5,7 @@
 #include <iostream>
 
 using namespace std;
-
+// Q1 : https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
 class Q1 {
 public:
 	static int find_in_paired_vector(vector<pair<int, int>>& mp, int i) {
