@@ -53,7 +53,7 @@ public:
 		}
 		return cpy_nums;
 	}
-	static void begin() {
+	static void init() {
 		vector<int> nums = { 5,0,10,0,10,6 };
 		auto res = Q1::smallerNumbersThanCurrent(nums);
 		for (auto x : res) {
