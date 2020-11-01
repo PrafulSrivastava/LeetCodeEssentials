@@ -1,5 +1,5 @@
 #pragma once
-#include <map>
+#include <unordered_map>
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -28,11 +28,11 @@ public:
 	}
 	static vector<int> luckyNumbers(vector<vector<int>>& matrix) {
 		vector<int> res;
-		map<int, bool> mp_row;
+		unordered_map<int, bool> mp_row;
 		for (int i = 0; i < matrix.size(); i++) {
 			mp_row.insert(pair<int, bool>(i, true));
 		}
-		map<int, bool> mp_col;
+		unordered_map<int, bool> mp_col;
 		for (int j = 0; j < matrix[0].size(); j++) {
 			mp_col.insert(pair<int, bool>(j, true));
 		}
