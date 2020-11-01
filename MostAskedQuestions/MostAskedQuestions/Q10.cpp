@@ -15,12 +15,6 @@ public:
 				A[i][j] ^= 1;
 			}
 		}
-		for (auto x : A) {
-			for (auto y : x) {
-				cout << y << " ";
-			}
-			cout << endl;
-		}
 	}
 	static void swap(int &a, int &b) {
 		int c = a;
@@ -32,12 +26,6 @@ public:
 			for (int j = 0; j < A[0].size()/2; j++) {
 				swap(A[i][j], A[i][A[0].size() - j - 1]);
 			}
-		}
-		for (auto x : A) {
-			for (auto y : x) {
-				cout << y << " ";
-			}
-			cout << endl;
 		}
 	}
 	static vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
