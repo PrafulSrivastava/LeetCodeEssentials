@@ -11,7 +11,8 @@
 //#include "Q10.cpp"
 //#include "Q11.cpp"
 //#include "Q12.cpp"
-#include "Q13.cpp"
+//#include "Q13.cpp"
+#include "Q14.cpp"
 
 int main() {
 	//Q1::init();
@@ -26,6 +27,7 @@ int main() {
 	//Q10::init();
 	//Q11::init();
 	//Q12::init();
-	Q13::init();
+	//Q13::init();
+	Q14::init();
 	return 1;
 }
