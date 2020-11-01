@@ -1,13 +1,14 @@
 
 #include "Q1.cpp"
-#include "Q2.cpp"
-#include "Q3.cpp"
-#include "Q4.cpp"
-#include "Q5.cpp"
-#include "Q6.cpp"
-#include "Q7.cpp"
-#include "Q8.cpp"
-#include "Q9.cpp"
+//#include "Q2.cpp"
+//#include "Q3.cpp"
+//#include "Q4.cpp"
+//#include "Q5.cpp"
+//#include "Q6.cpp"
+//#include "Q7.cpp"
+//#include "Q8.cpp"
+//#include "Q9.cpp"
+#include "Q10.cpp"
 
 int main() {
 	//Q1::init();
@@ -18,6 +19,7 @@ int main() {
 	//Q6::init();
 	//Q7::init();
 	//Q8::init();
-	Q9::init();
+	//Q9::init();
+	Q10::init();
 	return 1;
 }
