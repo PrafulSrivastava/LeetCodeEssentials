@@ -7,6 +7,7 @@
 #include "Q6.cpp"
 #include "Q7.cpp"
 #include "Q8.cpp"
+#include "Q9.cpp"
 
 int main() {
 	//Q1::init();
@@ -16,6 +17,7 @@ int main() {
 	//Q5::init();
 	//Q6::init();
 	//Q7::init();
-	Q8::init();
+	//Q8::init();
+	Q9::init();
 	return 1;
 }
