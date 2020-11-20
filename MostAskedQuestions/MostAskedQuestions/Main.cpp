@@ -18,14 +18,15 @@
 //#include "Q18.cpp"
 //#include "Q19.cpp"
 //#include "Q20.cpp"
-#include "Q21.cpp"
+//#include "Q21.cpp"
+#include "Q22.cpp"
 
 
 /*for (auto x : res) {
 	cout << x << " ";
 }*/
 
-//cout << "Count : " << res << endl;
+//cout << "Result : " << res << endl;
 
 //for (auto x : res) {
 //	for (auto y : x) {
@@ -54,6 +55,7 @@ int main() {
 	//Q18::init();
 	//Q19::init();
 	//Q20::init();
-	Q21::init();
+	//Q21::init();
+	Q22::init();
 	return 1;
 }
