@@ -16,7 +16,8 @@
 //#include "Q16.cpp"
 //#include "Q17.cpp"
 //#include "Q18.cpp"
-#include "Q19.cpp"
+//#include "Q19.cpp"
+#include "Q20.cpp"
 
 
 /*for (auto x : res) {
@@ -42,6 +43,7 @@ int main() {
 	//Q16::init();
 	//Q17::init();
 	//Q18::init();
-	Q19::init();
+	//Q19::init();
+	Q20::init();
 	return 1;
 }
