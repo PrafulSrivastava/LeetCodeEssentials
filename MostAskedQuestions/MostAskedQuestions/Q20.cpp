@@ -9,7 +9,7 @@
 using namespace std;
 
 struct comp {
-	bool operator()(const string &a, const string &b) const {
+	bool operator()(const string& a, const string& b) const {
 		return a.length() < b.length();
 	}
 };
@@ -19,7 +19,7 @@ class Q20 {
 public:
 	static vector<string> commonChars(vector<string>& A) {
 		vector<string> chars;
-		
+
 		sort(A.begin(), A.end(), comp());
 		copy(A.begin(), A.end(), A.begin());
 		auto start = A.begin();
@@ -28,7 +28,7 @@ public:
 			bool flag = true;
 			start = A.begin();
 			start++;
-			while(start != A.end()) {
+			while (start != A.end()) {
 				auto pos = start->find(x);
 				if (pos == string::npos) {
 					flag = false;

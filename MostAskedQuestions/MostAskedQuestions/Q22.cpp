@@ -15,7 +15,7 @@ struct comp {
 	}
 };
 
-// Q22 : https://leetcode.com/problems/minimum-absolute-difference/
+// Q22 : https://leetcode.com/problems/available-captures-for-rook/
 class Q22 {
 public:
 	static pair<int, int> get_rook_position(vector<vector<char>>& board) {
