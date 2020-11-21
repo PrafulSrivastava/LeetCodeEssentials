@@ -22,7 +22,9 @@
 //#include "Q22.cpp"
 //#include "Q23.cpp"
 //#include "Q24.cpp"
-#include "Q25.cpp"
+//#include "Q25.cpp"
+#include "Q26.cpp"
+
 
 
 
@@ -64,7 +66,9 @@ int main() {
 	//Q22::init();
 	//Q23::init();
 	//Q24::init();
-	Q25::init();
+	//Q25::init();
+	Q26::init();
+
 
 	return 1;
 }
