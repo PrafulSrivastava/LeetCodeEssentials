@@ -6,8 +6,8 @@
 #include <string>
 #include <unordered_set>
 using namespace std;
-// Q29 : https://leetcode.com/problems/move-zeroes/
-class Q29 {
+// Q30 : https://leetcode.com/problems/move-zeroes/
+class Q30 {
 public:
     static void moveZeroes(vector<int>& nums) {
         int cnt = 0;
@@ -27,6 +27,6 @@ public:
     }
     static void init() {
         vector<int> nums = { 32, 38, 0, 0, 9 };
-        Q29::moveZeroes(nums);
+        Q30::moveZeroes(nums);
     }
 };
