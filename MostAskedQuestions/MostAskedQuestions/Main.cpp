@@ -24,7 +24,9 @@
 //#include "Q24.cpp"
 //#include "Q25.cpp"
 //#include "Q26.cpp"
-#include "Q27.cpp"
+//#include "Q27.cpp"
+#include "Q28.cpp"
+
 
 
 
@@ -69,7 +71,9 @@ int main() {
 	//Q24::init();
 	//Q25::init();
 	//Q26::init();
-	Q27::init();
+	//Q27::init();
+	Q28::init();
+
 
 
 
