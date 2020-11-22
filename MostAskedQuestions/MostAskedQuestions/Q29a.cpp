@@ -6,8 +6,8 @@
 #include <string>
 #include <unordered_set>
 using namespace std;
-// Q28 : https://leetcode.com/problems/fair-candy-swap/
-class Q28 {
+// Q29 : https://leetcode.com/problems/fair-candy-swap/
+class Q29 {
 public:
     static int find_in_vec(int n, vector<int> & vec) {// 1 lf3
         int f = 0;
@@ -85,7 +85,7 @@ public:
     static void init() {
         vector<int> A = { 32, 38, 8, 1, 9 };
         vector<int> B = { 68, 92 };
-        auto res = Q28::fairCandySwap(A, B);
+        auto res = Q29::fairCandySwap(A, B);
         for (auto x : res) {
             cout << x << " ";
         }
