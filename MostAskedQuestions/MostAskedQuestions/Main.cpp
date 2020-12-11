@@ -25,8 +25,10 @@
 //#include "Q25.cpp"
 //#include "Q26.cpp"
 //#include "Q27.cpp"
-//#include "Q28.cpp"
-#include "Q29.cpp"
+#include "Q28.cpp"
+//#include "Q29.cpp"
+//#include "Q30.cpp"
+
 
 /*for (auto x : res) {
 	cout << x << " ";
@@ -68,8 +70,10 @@ int main() {
 	//Q25::init();
 	//Q26::init();
 	//Q27::init();
-	//Q28::init();
-	Q29::init();
+	Q28::init();
+	//Q29::init();
+	//Q30::init();
+
 
 
 
