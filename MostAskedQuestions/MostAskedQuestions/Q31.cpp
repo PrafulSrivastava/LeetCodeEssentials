@@ -23,6 +23,7 @@ public:
                 sum = 0;
             }
         }
+
         if (max < sum) {
             max = sum;
         }
